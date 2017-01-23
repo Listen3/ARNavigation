@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.soaringnova.novascenic">
+    package="com.soaringnova.novascenic" >
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ARNavigation">
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="0bb74d2c529d330f39861b3bce713c60"></meta-data>
+        <activity android:name=".activity.ARNavigation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
