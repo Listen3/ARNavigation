@@ -1,4 +1,4 @@
-package com.soaringnova.novascenic.util;
+package com.soaringnova.novascenic.utils;
 
 import android.app.Activity;
 import android.os.Build;

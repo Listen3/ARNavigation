@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/poiBase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/poiName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0f0"
+                android:gravity="center"
+                android:text="商家店名"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/poiDistance"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="商家距离"
+                android:textColor="#000" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--<RelativeLayout
+        android:layout_width="5px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:background="#fff"></RelativeLayout>-->
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.soaringnova.novascenic.util;
+package com.soaringnova.novascenic.utils;
 
 import android.content.Context;
 import android.content.Intent;

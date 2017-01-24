@@ -1,4 +1,4 @@
-package com.soaringnova.novascenic.util;
+package com.soaringnova.novascenic.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

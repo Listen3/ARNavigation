@@ -1,4 +1,4 @@
-package com.soaringnova.novascenic.util;
+package com.soaringnova.novascenic.utils;
 
 import android.view.View;
 import android.view.ViewGroup;

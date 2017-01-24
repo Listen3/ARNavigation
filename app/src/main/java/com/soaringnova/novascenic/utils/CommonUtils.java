@@ -1,4 +1,4 @@
-package com.soaringnova.novascenic.util;
+package com.soaringnova.novascenic.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,13 +8,6 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Handler;
-import android.os.Looper;
-import android.text.TextUtils;
-import android.util.TypedValue;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewParent;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
@@ -25,15 +18,10 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.security.MessageDigest;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
